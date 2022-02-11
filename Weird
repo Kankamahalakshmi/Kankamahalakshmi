@@ -1,0 +1,20 @@
+- 👋 Hi, I’m @Kankamahalakshmi
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+Kankamahalakshmi/Kankamahalakshmi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+# weird
+n=int(input())
+if n%2==1:
+    print('weird')
+elif n>=2 and n<=5:
+    print('not weird')
+elif n>=6 and n<=20:
+    print('weird')
+elif n>20:
+    print('not weird')
