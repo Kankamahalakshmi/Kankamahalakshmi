@@ -1,0 +1,26 @@
+### Hi there 👋
+
+<!--
+**Kankamahalakshmi/Kankamahalakshmi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+x=float(input("enter the any 1value")) 
+y=float(input("2enter the any value")) 
+if x>y:
+ Print("1st value is big")
+else:
+ Print("2nh value is big") 
+if x==y:
+ Print("two values are equal ¡¡") 
+else:
+ Print("two numbers are not equal")
