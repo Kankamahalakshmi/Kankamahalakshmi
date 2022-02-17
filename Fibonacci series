@@ -1,0 +1,24 @@
+- 👋 Hi, I’m @Kankamahalakshmi
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+Kankamahalakshmi/Kankamahalakshmi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+Number = int(input("Please Enter the Fibonacci Number Range = "))
+
+First = 0
+Second = 1
+Sum = 0
+
+for Num in range(0, Number):
+    print(First, end = '  ')
+    Sum = Sum + First
+    Next = First + Second
+    First = Second
+    Second = Next
+
+print("\nThe Sum of Fibonacci Series Numbers = %d" %Sum)
