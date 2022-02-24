@@ -1,0 +1,29 @@
+- 👋 Hi, I’m @Kankamahalakshmi
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+Kankamahalakshmi/Kankamahalakshmi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+a=list()
+n=int(input('enter size'))
+print("enter number")
+for i in range(int(n)):
+    k=int(input(" "))
+    a=append(k)
+    
+o=[]
+e=[]
+for i in a:
+    if i%2==0:
+        e.append(i)
+    else:
+        o.append(i)
+for i in range(len(o)):
+   print(o[i],end=' ')
+print('  ',end='')
+for i in range(len(e)):
+   print(e[i],end=' ')
